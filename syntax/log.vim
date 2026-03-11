@@ -1,3 +1,4 @@
+" fork from https://github.com/MTDL9, added some new pattern
 " thomasnew add some matchadd
 syntax on
 "call matchadd('ErrorMsg', 'ERROR')
@@ -13,8 +14,8 @@ call matchadd('PreProc', '\d\d\d\d-\d\d-\d\d')
 
 " Vim syntax file
 " Language:         Generic log file
-" Maintainer:       MTDL9 <https://github.com/MTDL9>
-" Latest Revision:  2020-08-23
+" Maintainer:       thomasnew <https://github.com/thomasnew/vim-log-highlighting>
+" Latest Revision:  2026-03-11
 
 if exists('b:current_syntax')
   finish
