@@ -1,3 +1,16 @@
+" thomasnew add some matchadd
+syntax on
+"call matchadd('ErrorMsg', 'ERROR')
+"call matchadd('ErrorMsg', 'Error')
+"call matchadd('WarningMsg', 'WARN')
+"call matchadd('WarningMsg', 'WARNING')
+"call matchadd('Identifier', 'INFO')
+"call matchadd('Number', '\d+')
+"call matchadd('Constant', '\v(\d{1,3}.){3}\d{1,3}')
+call matchadd('PreProc', '\v(\d{1,3}.){3}\d{1,3}')
+call matchadd('PreProc', '\d\d\d\d-\d\d-\d\d')
+"call matchadd('Constant', '\v(\d{1,3}.){3}\d{1,3}')
+
 " Vim syntax file
 " Language:         Generic log file
 " Maintainer:       MTDL9 <https://github.com/MTDL9>
