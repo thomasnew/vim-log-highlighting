@@ -1,5 +1,6 @@
 " fork from https://github.com/MTDL9, added some new pattern
-" thomasnew add some matchadd
+" thomasnew modified for myself
+
 syntax on
 "call matchadd('ErrorMsg', 'ERROR')
 "call matchadd('ErrorMsg', 'Error')
@@ -11,6 +12,13 @@ syntax on
 call matchadd('PreProc', '\v(\d{1,3}.){3}\d{1,3}')
 call matchadd('PreProc', '\d\d\d\d-\d\d-\d\d')
 "call matchadd('Constant', '\v(\d{1,3}.){3}\d{1,3}')
+
+set encoding=utf-8
+set hlsearch
+set incsearch
+set cursorline
+set number
+set showmatch
 
 " Vim syntax file
 " Language:         Generic log file
