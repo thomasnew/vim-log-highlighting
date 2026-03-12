@@ -1,3 +1,5 @@
+" copy to ~/.vimrc
+
 " fork from https://github.com/MTDL9, added some new pattern
 " thomasnew modified for myself
 
