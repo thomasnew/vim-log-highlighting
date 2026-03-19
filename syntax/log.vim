@@ -2,24 +2,15 @@
 
 " fork from https://github.com/MTDL9, added some new pattern
 " thomasnew modified for myself
+" type :highlight to check 
 
 syntax on
-"call matchadd('ErrorMsg', 'ERROR')
-"call matchadd('ErrorMsg', 'Error')
-"call matchadd('WarningMsg', 'WARN')
-"call matchadd('WarningMsg', 'WARNING')
-"call matchadd('Identifier', 'INFO')
-"call matchadd('Number', '\d+')
-"call matchadd('Constant', '\v(\d{1,3}.){3}\d{1,3}')
-call matchadd('PreProc', '\v(\d{1,3}.){3}\d{1,3}')
-call matchadd('PreProc', '\d\d\d\d-\d\d-\d\d')
-"call matchadd('Constant', '\v(\d{1,3}.){3}\d{1,3}')
 
 set encoding=utf-8
 set hlsearch
 set incsearch
 set cursorline
-set number
+"set number
 set showmatch
 
 " Vim syntax file
@@ -33,6 +24,10 @@ endif
 
 let s:cpo_save = &cpoptions
 set cpoptions&vim
+
+" thomasnew defined highlight
+"---------------------------------------------------------------------------
+highlight mllPurple ctermfg=135 guifg=#af5fff cterm=bold gui=bold
 
 
 " Operators
@@ -145,8 +140,8 @@ hi def link logUrl Underlined
 hi def link logDomain Label
 hi def link logUUID Label
 hi def link logMD5 Label
-hi def link logIPV4 Label
-hi def link logIPV6 ErrorMsg
+hi def link logIPV4 mllPurple
+hi def link logIPV6 Identifier
 hi def link logMacAddress Label
 hi def link logFilePath Conditional
 
