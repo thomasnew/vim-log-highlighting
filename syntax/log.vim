@@ -12,6 +12,7 @@ set incsearch
 set cursorline
 "set number
 set showmatch
+set t_Co=256
 
 " Vim syntax file
 " Language:         Generic log file
@@ -27,7 +28,7 @@ set cpoptions&vim
 
 " thomasnew defined highlight
 "---------------------------------------------------------------------------
-highlight mllPurple ctermfg=135 guifg=#af5fff cterm=bold gui=bold
+highlight mllPurple ctermfg=93 guifg=#af5fff cterm=bold gui=bold
 
 
 " Operators
