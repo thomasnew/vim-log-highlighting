@@ -172,7 +172,19 @@ hi def link logLevelInfo Repeat
 hi def link logLevelDebug Debug
 hi def link logLevelTrace Comment
 
+" mll added for zetyun
+"---------------------------------------------------------------------------
+syn case ignore
+syn keyword zetyun_common zetyun datacanvas mall
+syn keyword zetyun_product dingostack openstack ceph nova libvirt neutron bmgw dpdk ovs ovn dpu 
+syn keyword zetyun_extend yucca yunbo br-int port vm baremetal network bridge switch router
+syn keyword zetyun_action skip skipping ignored unexpected unable updating refreshing returned running creating created
+syn case match
 
+hi def link zetyun_common Constant
+hi def link zetyun_product Define
+hi def link zetyun_extend Comment
+hi def link zetyun_action Type
 
 let b:current_syntax = 'log'
 
