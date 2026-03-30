@@ -1,19 +1,3 @@
-" copy to ~/.vimrc
-
-" fork from https://github.com/MTDL9, added some new pattern
-" thomasnew modified for myself
-" type :highlight to check 
-
-syntax on
-
-set encoding=utf-8
-set hlsearch
-set incsearch
-set cursorline
-"set number
-set showmatch
-set t_Co=256
-
 " Vim syntax file
 " Language:         Generic log file
 " Maintainer:       thomasnew <https://github.com/thomasnew/vim-log-highlighting>
@@ -190,4 +174,3 @@ let b:current_syntax = 'log'
 
 let &cpoptions = s:cpo_save
 unlet s:cpo_save
-
