@@ -1,6 +1,6 @@
 # Vim Log Highlighting
 
-![Log highlighting example](doc/mylog.jpg)
+![Log highlighting example](doc/mylog.png)
 
 ## Overview
 
