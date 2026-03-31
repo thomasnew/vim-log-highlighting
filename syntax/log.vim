@@ -12,7 +12,7 @@ set cpoptions&vim
 
 " thomasnew defined highlight
 "---------------------------------------------------------------------------
-highlight mllPurple ctermfg=93 guifg=#af5fff cterm=bold gui=bold
+highlight default mllPurple ctermfg=93 guifg=#af5fff cterm=bold gui=bold
 
 
 " Operators
@@ -29,9 +29,8 @@ syn match logEmptyLines display '- - '
 "---------------------------------------------------------------------------
 syn match logNumber       '\<-\?\d\+\>'
 syn match logHexNumber    '\<0[xX]\x\+\>'
-syn match logHexNumber    '\<\d\x\+\>'
 syn match logBinaryNumber '\<0[bB][01]\+\>'
-syn match logFloatNumber  '\<\d.\d\+[eE]\?\>'
+syn match logFloatNumber  '\<-\?\d\+\.\d\+\([eE][-+]\?\d\+\)\?\>'
 
 syn keyword logBoolean    TRUE FALSE True False true false
 syn keyword logNull       NULL Null null

@@ -26,7 +26,9 @@ Some of the highlighted elements are:
 
 - cp ./ftdetect/* ~/.vim/ftdetect/
 - cp ./syntax/* ~/.vim/syntax/
-- cp ./.vimrc to ~/.vimrc
+- cp ./.vimrc ~/.vimrc
+
+Note: `.vimrc` is a hidden file in the repository root.
 
 
 
