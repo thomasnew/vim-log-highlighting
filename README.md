@@ -22,6 +22,18 @@ Some of the highlighted elements are:
 
 ## Installation
 
+### Install Script
+
+```bash
+./install.sh
+```
+
+### Uninstall Script
+
+```bash
+./uninstall.sh
+```
+
 ### Manual Install
 
 - cp ./ftdetect/* ~/.vim/ftdetect/
